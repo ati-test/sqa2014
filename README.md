@@ -1,2 +1,1 @@
-sqa2014
-=======
+## Инструкция по установке python+selenium+behave
