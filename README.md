@@ -1,6 +1,6 @@
-##Инструкция по установке python+selenium+behave для Windows
+###Инструкция по установке python+selenium+behave для Windows
 
-###Установка python3.3 + pip
+####Установка python3.3 + pip
 
 1. Перейдите на сайт [www.python.org/getit/](http://www.python.org/getit/)
 2. Скачайте Python 3.3.4 (Windows x86-84 MSI Installer для х64 Windows или Python 3.3.4 Windows x86 MSI Installer для х32 битной Windows);
@@ -18,5 +18,9 @@
 
 ###Установка selenium + behave
 
-1. Выполните команду `pip install selenium`
-2. Выполните команду `pip install git+https://github.com/wirewit/behave`
+1. Установите selenium. Для этого выполните команду `pip install selenium`;
+2. Установите behave:
+    * Если у вас установлен в системе git, то используйте команду: `pip install git+https://github.com/wirewit/behave`
+    * Если у вас НЕ установлен git, то, либо установите git (предпочтительный вариант), либо [скачайте ZIP архив](https://github.com/wirewit/behave/archive/master.zip/) в папку c:\Python33
+    * Затем перейдите в папку Python33, используя команду: `cd c:\Python33`
+    * И установите behave командой: `pip install behave-master.zip`
