@@ -16,7 +16,7 @@
 8. В командной строке введите `python C:\Python3\distribute_setup.py` и дождитесь установки;
 9. Установите pip командой: `easy_install pip`
 
-###Установка selenium + behave
+####Установка selenium + behave
 
 1. Установите selenium. Для этого выполните команду `pip install selenium`;
 2. Установите behave:
@@ -24,3 +24,7 @@
     * Если у вас НЕ установлен git, то, либо установите git (предпочтительный вариант), либо [скачайте ZIP архив](https://github.com/wirewit/behave/archive/master.zip/) в папку c:\Python33
     * Затем перейдите в папку Python33, используя команду: `cd c:\Python33`
     * И установите behave командой: `pip install behave-master.zip`
+    
+###Полезные ссылки (на английском!)
+1. (Behave 1.2.3 documentation)[http://pythonhosted.org/behave/] Все, что вам требуется знать о Behave.
+2. (Selenium with Python)[http://selenium-python.readthedocs.org/] Здесь можно подсмотреть методы WebDriver. Как перейти по ссылке, найти элемент на странице, заполнить поле и многое другое.
