@@ -34,6 +34,7 @@ def assert_page_name(context, banner_id):
     
 @step('в соседнем окне откроется {site_url}')
 def assert_page_name(context, site_url):
+    #переключаемся в новую вкладку/окно
     try:
         _windows_list = context.browser.window_handles
         _root_window = context.browser.current_window_handle
@@ -42,10 +43,13 @@ def assert_page_name(context, site_url):
             window2switch = _windows_list.pop()
             context.browser.switch_to_window(window2switch)
         except Exception:
-            raise Exception("Failed to switch to popup ")
+            raise Exception("Failed to switch to popup")
     except Exception as e:
         pass
+    #проверяем, что url открывшейся страницы соответствует ожидаемому
     url = context.browser.current_url
     assert url == site_url, url + ' не совпадает с ожидаемым ' + site_url
+    #закрывваем вкладку/окно
     context.browser.close()
+    #возвращаемся в родительское окно
     context.browser.switch_to_window(_root_window)
