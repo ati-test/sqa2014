@@ -3,7 +3,7 @@
 ####Установка python3.3 + pip
 
 1. Перейдите на сайт [www.python.org/getit/](http://www.python.org/getit/)
-2. Скачайте Python 3.3.4 (Windows x86-84 MSI Installer для х64 Windows или Python 3.3.4 Windows x86 MSI Installer для х32 битной Windows);
+2. Скачайте Python 3.3.4 (Windows x86-64 MSI Installer для х64 Windows или Python 3.3.4 Windows x86 MSI Installer для х32 битной Windows);
 3. Запустите установку Python 3 (запомните путь для установки, по умолчанию c:\Python33\);
 4. Укажите путь до питона в системную переменную PATH. Для этого:
     * Откройте командную строку(WIN+R cmd);
@@ -21,7 +21,7 @@
 1. Установите selenium. Для этого выполните команду `pip install selenium`;
 2. Установите behave:
     * Если у вас установлен в системе git, то используйте команду: `pip install git+https://github.com/wirewit/behave`
-    * Если у вас НЕ установлен git, то, либо [установите git](http://git-scm.com/downloads/) (предпочтительный вариант), либо [скачайте ZIP архив](https://github.com/wirewit/behave/archive/master.zip/) в папку c:\Python33
+    * Если у вас НЕ установлен git, то, либо [установите git](http://git-scm.com/downloads/)  и см. предыдущий пункт (предпочтительный вариант), либо [скачайте ZIP архив](https://github.com/wirewit/behave/archive/master.zip/) в папку c:\Python33
     * Затем перейдите в папку Python33, используя команду: `cd c:\Python33`
     * И установите behave командой: `pip install behave-master.zip`
     
