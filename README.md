@@ -2,12 +2,12 @@
 
 ####Установка python3.3 + pip
 
-1. Перейдите на сайт [www.python.org/getit/](http://www.python.org/getit/)
-2. Скачайте Python 3.3.4 (Windows x86-64 MSI Installer для х64 Windows или Python 3.3.4 Windows x86 MSI Installer для х32 битной Windows);
-3. Запустите установку Python 3 (запомните путь для установки, по умолчанию c:\Python33\);
+1. Перейдите по ссылке [https://www.python.org/downloads/release/python-340//](https://www.python.org/downloads/release/python-340/)
+2. Скачайте Python 3.4.0 (Windows x86-64 MSI Installer для х64 Windows или Python 3.4.0 Windows x86 MSI Installer для х32 битной Windows);
+3. Запустите установку Python 34 (запомните путь для установки, по умолчанию c:\Python34\);
 4. Укажите путь до питона в системную переменную PATH. Для этого:
     * Откройте командную строку(WIN+R cmd);
-    * Введите команду: ```setx PATH "%PATH%;C:\Python33;C:\Python33\Lib\;C:\Python33\Scripts\;"```
+    * Введите команду: ```setx PATH "%PATH%;C:\Python34;C:\Python34\Lib\;C:\Python34\Scripts\;"```
 Нажмите Enter;
     * Должна появиться надпись "Успех".
 5. Перезапустите командную строку;
