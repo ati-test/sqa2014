@@ -36,23 +36,10 @@
 ![Консоль](https://dl.dropboxusercontent.com/u/58607821/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B/Image%2050.png "Консоль")
 
 
-####Установка pip
-
-* Скачайте файл [distribute_setup.py](http://python-distribute.org/distribute_setup.py) в C:\Python34\ для установки easy_install;
-* В командной строке введите `python C:\Python34\distribute_setup.py` и дождитесь установки;
-* Установите pip командой: `easy_install pip`
-    * Альтернативная установка pip: скачайте файл [get-pip.py](https://raw.github.com/pypa/pip/master/contrib/get-pip.py).
-    * Запустите его командой `python <путь до файла get-pip.py>`
-
-
 ####Установка Selenium + Behave
 
 * Установите Selenium и Behave. Для этого поочередно выполните команды `pip install selenium` и `pip install behave`;
-* Установите Behave. 
-    * Если у вас установлен в системе git, то используйте команду: `pip install git+https://github.com/wirewit/behave`
-    * Если у вас НЕ установлен git, то, либо [установите git](http://git-scm.com/downloads/)  и см. предыдущий пункт (предпочтительный вариант), либо [скачайте ZIP архив](https://github.com/wirewit/behave/archive/master.zip/) в папку c:\Python33
-    2.3 Затем перейдите в папку Python33, используя команду: `cd C:\Python34`
-    2.4 И установите behave командой: `pip install behave-master.zip`
+
     
 ###Полезные ссылки (на английском!)
 1. [Behave 1.2.3 documentation](http://pythonhosted.org/behave/) Все, что вам требуется знать о Behave.
