@@ -4,14 +4,14 @@
 
 1. Перейдите по ссылке [https://www.python.org/downloads/release/python-340//](https://www.python.org/downloads/release/python-340/)
 2. Скачайте Python 3.4.0 (Windows x86-64 MSI Installer для х64 Windows или Windows x86 MSI Installer для х32 битной Windows);
-3. Запустите установку Python 34 (по умолчанию путь для установки c:\Python34\, если вы установите python  в другое место, то необходимо изменить пути к python в переменной PATH, см. п.п. 4.2);
-4. Укажите путь до питона в системную переменную PATH. Для этого:
+3. Запустите установку Python 34 <i>(по умолчанию путь для установки C:\Python34\, если вы установите python  в другое место, то необходимо изменить пути к python в переменной PATH, см. п.п. 4.2)</i>;
+4. Укажите путь до python в системную переменную PATH. Для этого:
     4.1 Откройте командную строку(WIN+R cmd);
     4.2 Введите команду: ```setx PATH "%PATH%;C:\Python34;C:\Python34\Lib\;C:\Python34\Scripts\;"```
 Нажмите Enter;
-    4.3 Должна появиться надпись "Успех".
+    4.3 Должна появиться надпись "УСПЕХ", либо "SUCCESS".
 5. Перезапустите командную строку;
-6. Убедитесь, что питон работает, набрав команду ```python```. Если все ОК, то нажмите ctrl+z и enter.
+6. Убедитесь, что питон работает, набрав команду ```python```. Если все ОК, то вы увидите следующий текст:.
 7. Скачайте файл [distribute_setup.py](http://python-distribute.org/distribute_setup.py) в C:\Python33\distribute_setup.py для установки easy_install;
 8. В командной строке введите `python C:\Python3\distribute_setup.py` и дождитесь установки;
 9. Установите pip командой: `easy_install pip`
