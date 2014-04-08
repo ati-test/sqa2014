@@ -11,7 +11,9 @@
 Нажмите Enter;
     4.3 Должна появиться надпись "УСПЕХ", либо "SUCCESS".
 5. Перезапустите командную строку;
-6. Убедитесь, что питон работает, набрав команду ```python```. Если все ОК, то вы увидите следующий текст:
+6. Убедитесь, что питон работает, набрав команду ```python```. Если все ОК, то вы увидите следующую картину:
+
+[Консоль]([https://dl.dropboxusercontent.com/u/58607821/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B/cmdpython.jpg] изображения "Консоль")
 
 
 7. Скачайте файл [distribute_setup.py](http://python-distribute.org/distribute_setup.py) в C:\Python33\distribute_setup.py для установки easy_install;
