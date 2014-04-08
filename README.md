@@ -6,10 +6,10 @@
 2. Скачайте Python 3.4.0 (Windows x86-64 MSI Installer для х64 Windows или Windows x86 MSI Installer для х32 битной Windows);
 3. Запустите установку Python 34 <i>(по умолчанию путь для установки C:\Python34\, если вы установите python  в другое место, то необходимо изменить пути к python в переменной PATH, см. п.п. 4.2)</i>;
 4. Укажите путь до python в системную переменную PATH. Для этого:
-    4.1 Откройте командную строку(WIN+R cmd);
-    4.2 Введите команду: ```setx PATH "%PATH%;C:\Python34;C:\Python34\Lib\;C:\Python34\Scripts\;"```
+4.1 Откройте командную строку(WIN+R cmd);
+4.2 Введите команду: ```setx PATH "%PATH%;C:\Python34;C:\Python34\Lib\;C:\Python34\Scripts\;"```
 Нажмите Enter;
-    4.3 Должна появиться надпись "УСПЕХ", либо "SUCCESS":
+4.3 Должна появиться надпись "УСПЕХ", либо "SUCCESS":
 ![Консоль](https://dl.dropboxusercontent.com/u/58607821/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B/Image%2048.png "Консоль")
 
 Если у вас возникла ошибка переполнения переменной (более 1024 знаков):
