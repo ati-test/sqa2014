@@ -1,6 +1,6 @@
 ###Инструкция по установке python+selenium+behave для Windows
 
-####Установка python3.3 + pip
+####Установка python3.4 + pip
 
 1. Перейдите по ссылке [https://www.python.org/downloads/release/python-340//](https://www.python.org/downloads/release/python-340/)
 2. Скачайте Python 3.4.0 (Windows x86-64 MSI Installer для х64 Windows или Python 3.4.0 Windows x86 MSI Installer для х32 битной Windows);
