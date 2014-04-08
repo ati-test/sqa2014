@@ -1,9 +1,10 @@
 ###Инструкция по установке Python+Selenium+Behave для Windows
-
 <br>
+___________________________
+SQA-Days15!<br>
+Если вы слушатель мастер-класса ["Автоматизация для ленивых тестировщиков"](http://www.sqadays.com/talk.sdf/sqadays/sqa_days15/talks/16562) и хотите принять участие 
+___________________________
 <br>
-
-
 ####Установка Python3.4
 
 * **Cкачайте Python 3.4.0:**
@@ -44,3 +45,10 @@
 ###Полезные ссылки (на английском!)
 1. [Behave 1.2.3 documentation](http://pythonhosted.org/behave/) Все, что вам требуется знать о Behave.
 2. [Selenium with Python](http://selenium-python.readthedocs.org/) Здесь можно подсмотреть методы WebDriver. Как перейти по ссылке, найти элемент на странице, заполнить поле и многое другое.
+
+###Наши контакты
+Оксана
+oksana.h@ati.su, Skype: jarovnya
+
+Катерина 
+katerina@ati.su, Skype: ekaterinajj
