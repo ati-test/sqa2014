@@ -8,8 +8,8 @@ ___________________________
 ####Установка Python3.4
 
 * **Cкачайте Python 3.4.0:**
-    * [Windows x86-64 MSI Installer](https://www.python.org/ftp/python/3.4.0/python-3.4.0.amd64.msi) для х64 Windows;
-    * [Windows x86 MSI Installer](https://www.python.org/ftp/python/3.4.0/python-3.4.0.msi) для х32 битной Windows;
+    * [Windows x86-64 MSI Installer](https://www.python.org/ftp/python/3.4.0/python-3.4.0.amd64.msi) для Windows х64;
+    * [Windows x86 MSI Installer](https://www.python.org/ftp/python/3.4.0/python-3.4.0.msi) для Windows х32;
 
 * **Запустите установку Python 3.4.0**
 
