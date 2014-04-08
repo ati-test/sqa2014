@@ -1,29 +1,39 @@
-###Инструкция по установке python+selenium+behave для Windows
+###Инструкция по установке Python+Selenium+Behave для Windows (тестировалось на Win7, Win8 и WinServer 2008)
 
-####Установка python3.4 + pip
+####Установка Python3.4 + pip
 
-1. Перейдите по ссылке [https://www.python.org/downloads/release/python-340//](https://www.python.org/downloads/release/python-340/)
-2. Скачайте Python 3.4.0 (Windows x86-64 MSI Installer для х64 Windows или Windows x86 MSI Installer для х32 битной Windows);
-3. Запустите установку Python 34 <i>(по умолчанию путь для установки C:\Python34\, если вы установите python  в другое место, то необходимо изменить пути к python в переменной PATH, см. п.п. 4.2)</i>;
-4. Укажите путь до python в системную переменную PATH. Для этого:
-4.1 Откройте командную строку(WIN+R cmd);
-4.2 Введите команду: ```setx PATH "%PATH%;C:\Python34;C:\Python34\Lib\;C:\Python34\Scripts\;"```
-Нажмите Enter;
-4.3 Должна появиться надпись "УСПЕХ", либо "SUCCESS":
-![Консоль](https://dl.dropboxusercontent.com/u/58607821/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B/Image%2048.png "Консоль")
+* **Cкачайте Python 3.4.0:**
+    * [Windows x86-64 MSI Installer](https://www.python.org/ftp/python/3.4.0/python-3.4.0.amd64.msi) для х64 Windows;
+    * [Windows x86 MSI Installer](https://www.python.org/ftp/python/3.4.0/python-3.4.0.msi) для х32 битной Windows;
 
-Если у вас возникла ошибка переполнения переменной (более 1024 знаков):
-![Консоль](https://dl.dropboxusercontent.com/u/58607821/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B/Image%2049.png "Консоль")
-То вы можете либо почистить PATH (только со знаем дела! Не поудаляйте лишнего) и вписать туда пути для python, либо полностью прописывать пути испольняемых файлов при их запуске.
+* **Запустите установку Python 3.4.0**
+
+    <i>По умолчанию путь для установки C:\Python34\, инструкция основана на предположении, что туда вы его и поставите)</i>;
+* **Укажите путь до python в системную переменную PATH:**
+    * Откройте командную строку (WIN+R cmd);
+    * Введите команду: ```setx PATH "%PATH%;C:\Python34;C:\Python34\Lib\;C:\Python34\Scripts\;"```;
+    * Нажмите Enter;
+
+
+    4.3 Должна появиться надпись "УСПЕХ", либо "SUCCESS":
+    ![Консоль](https://dl.dropboxusercontent.com/u/58607821/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B/Image%2048.png "Консоль")
+
+    Если у вас возникла ошибка переполнения переменной (более 1024 знаков):
+    ![Консоль](https://dl.dropboxusercontent.com/u/58607821/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B/Image%2049.png "Консоль")
+    
+    То вы можете либо почистить PATH (только со знаем дела! Не поудаляйте лишнего) и вписать туда пути для python, либо     полностью прописывать пути испольняемых файлов при их запуске.
 
 5. Перезапустите командную строку;
-6. Убедитесь, что python работает, набрав команду ```python```(не сработает, если не прописана PATH. В таком случае пишем поллный путь до python.exe). Если все ОК, то вы увидите следующую картину:
+6. Убедитесь, что python работает, набрав команду ```python```(не сработает, если не прописана PATH. В таком случае пишем полный путь до python.exe). Если все ОК, то вы увидите следующую картину:
 ![Консоль](https://dl.dropboxusercontent.com/u/58607821/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B/cmdpython.jpg "Консоль")
 
 
-7. Скачайте файл [distribute_setup.py](http://python-distribute.org/distribute_setup.py) в C:\Python33\distribute_setup.py для установки easy_install;
-8. В командной строке введите `python C:\Python3\distribute_setup.py` и дождитесь установки;
+7. Скачайте файл [distribute_setup.py](http://python-distribute.org/distribute_setup.py) в C:\Python34\ для установки easy_install;
+8. В командной строке введите `python C:\Python34\distribute_setup.py` и дождитесь установки;
 9. Установите pip командой: `easy_install pip`
+    Альтернативная установка pip: скачайте файл [get-pip.py](https://raw.github.com/pypa/pip/master/contrib/get-pip.py).
+    Запустите его командой `python <путь до файла get-pip.py>`
+
 
 ####Установка selenium + behave
 
