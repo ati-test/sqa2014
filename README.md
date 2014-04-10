@@ -4,8 +4,6 @@ ___________________________
 ___________________________
 
 
-
-[быстрой установкой](https://drive.google.com/file/d/0B7OLmDFb2I-JMDlRWEpwN3R3VWs/edit?usp=sharing) необходимого окружения, 
 <br>
 
 
