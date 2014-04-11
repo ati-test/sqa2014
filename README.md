@@ -7,7 +7,7 @@ ___________________________
 <br>
 
 
-####Инструкция по установке Python+Selenium+Behave для Windows
+####Инструкция по установке Python+Selenium+Behave для Win7/8 
 
 ####Установка Python3.4
 
