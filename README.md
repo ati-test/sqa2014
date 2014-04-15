@@ -1,6 +1,6 @@
 ___________________________
 ####Участникам SQA-Days15!<br>
-####Если вы слушатель мастер-класса ["Автоматизация для ленивых тестировщиков"](http://www.sqadays.com/talk.sdf/sqadays/sqa_days15/talks/16562) и хотите присоединиться к разработке и запуску тестов прямо в аудитории, то скачайте быстрый установщик окружения для Win7/8  [отсюда](https://drive.google.com/file/d/0B7OLmDFb2I-JMDlRWEpwN3R3VWs/edit?usp=sharing) или [отсюда](http://yadi.sk/d/etEjUf9sMB6Z5), а также поставьте [Firefox](https://download.mozilla.org/?product=firefox-stub&os=win&lang=ru) и [Notepad++](http://download.tuxfamily.org/notepadplus/6.5.5/npp.6.5.5.Installer.exe).
+####Если вы слушатель мастер-класса ["Автоматизация для ленивых тестировщиков"](http://www.sqadays.com/talk.sdf/sqadays/sqa_days15/talks/16562) и хотите присоединиться к разработке и запуску тестов прямо в аудитории, то скачайте быстрый установщик окружения для Win7/8  [отсюда](https://drive.google.com/file/d/0B7OLmDFb2I-JMDlRWEpwN3R3VWs/edit?usp=sharing) или [отсюда](http://yadi.sk/d/t5QHtjAKMVz35), а также поставьте [Firefox](https://download.mozilla.org/?product=firefox-stub&os=win&lang=ru) и [Notepad++](http://download.tuxfamily.org/notepadplus/6.5.5/npp.6.5.5.Installer.exe).
 ___________________________
 
 
